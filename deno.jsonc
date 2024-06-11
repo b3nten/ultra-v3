@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "jsxImportSource": "jsr:@hono/hono/jsx",
+        "lib": ["dom"]
+    },
+    "tasks": {
+        "dev": "deno run -A internal/cli.ts --dev --client=\"client.tsx\" --server=\"server.tsx\""
+    },
+    "imports": {
+        "hono": "jsr:@hono/hono"
+    },
+    "lock": false
+}
